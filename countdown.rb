@@ -6,6 +6,7 @@ while number > 0
     number -= 1
 end
 def countdown
+  puts "HAPPY NEW YEAR!"
 end
-puts "HAPPY NEW YEAR!"
+
 countdown
