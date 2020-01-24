@@ -11,7 +11,7 @@ end
 countdown
 
 def countdown_with_sleep
-countdown_with_sleep_output = 1
+  countdown_with_sleep_output
   sleep(5)
   while countdown_with_sleep_output  > 0
     puts "#{countdown_with_sleep_output} SECOND(S)!"
