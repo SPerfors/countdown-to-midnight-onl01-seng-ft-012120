@@ -5,7 +5,8 @@ while countdown_output  > 0
     puts "#{countdown_output} SECOND(S)!"
     countdown_output  -= 1
 end
-def countdown("HAPPY NEW YEAR!")
+puts "HAPPY NEW YEAR!"
+def countdown
 end
 
 countdown
