@@ -9,13 +9,8 @@ end
 
 countdown
 
-def countdown_with_sleep
-  countdown_with_sleep_output
+def countdown_with_sleep(5)
   sleep(5)
-  while countdown_with_sleep_output  > 0
-    puts "#{countdown_with_sleep_output} SECOND(S)!"
-    countdown_with_sleep_output  -= 1
-  end
 end
 
 countdown_with_sleep
