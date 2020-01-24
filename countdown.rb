@@ -12,7 +12,7 @@ countdown
 
 def countdown_with_sleep
   sleep(5)
-  countdown_with_sleep_output = 10
+  countdown_with_sleep_output = 0
   while countdown_with_sleep_output  > 0
     puts "#{countdown_with_sleep_output} SECOND(S)!"
     countdown_with_sleep_output  -= 1
