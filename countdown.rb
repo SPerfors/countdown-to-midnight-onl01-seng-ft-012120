@@ -10,7 +10,7 @@ end
 countdown
 
 def countdown_with_sleep(5)
-  sleep(5)
+  sleep
 end
 
 countdown_with_sleep
